@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    
+    <section id="title-contain">
+        <title>Log in to TecketMaster</title>
+    </section>
+    <section id="login-section">
+        <div id="input-section">
+            <div id="username-section">
+                <p id="username-guide-text">Username:</p>
+                <input id="username-inp" type="text">
+            </div>
+            <div id="password-section">
+                <p id="password-guide-text">Password:</p>
+                <input id="password-inp" type="text">
+            </div>
+        </div>
+        <!-- Errors and stuff -->
+        <p id="login-feedback"></p>
+        <button>Log In</button>
+        <button>Create Account</button>
+    </section>
+    <script src="js/index.js"></script>
 </body>
 </html>
