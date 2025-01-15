@@ -4,9 +4,7 @@
     margin-right: auto;
     align-content: center;
     justify-content: center;
-    align-items: center;
     display: flex;
-    flex-direction: column;
 }
 
 #username-guide-text, #password-guide-text {
@@ -14,20 +12,38 @@
 }
 
 #login-btn:hover {
-    background-color: #ffffff;
+    background-color: #8fff8f;
+    border: solid #8fff8f thick;
+    font-weight: 750;
+    text-decoration: underline double;
+}
+
+#login-btn:active {
+    background-color: #00991c;
+    border: solid #00991c thick
 }
 
 #login-btn {
-    text-decoration: underline;
-    font-weight: 750;
+    font-weight: 300;
     background-color: #00ff2f;
     border: solid #00ff2f thick;
     border-radius: 50px;
 }
 
-#create-account-btn {
-    text-decoration: underline;
+#create-account-btn:hover {
+    background-color: #00ddff;
+    border: solid #00ddff thick;
     font-weight: 750;
+    text-decoration: underline double;
+}
+
+#create-account-btn:active {
+    background-color: #0044ff;
+    border: solid #0044ff thick
+}
+
+#create-account-btn {
+    font-weight: 300;
     background-color: #00aaff;
     border: solid #00aaff thick;
     border-radius: 50px;
