@@ -16,13 +16,13 @@ body {
     font-weight: 750;
     background-color: #00ff2f;
     border: solid #00ff2f thick;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
 #create-account-btn {
     text-decoration: underline;
     font-weight: 750;
-    background-color: #0000ff;
-    border: solid #0000ff thick;
-    border-radius: 100px;
+    background-color: #00aaff;
+    border: solid #00aaff thick;
+    border-radius: 50px;
 }
