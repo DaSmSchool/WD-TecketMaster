@@ -9,7 +9,7 @@ var loginButtonEl = document.getElementById("login-btn")
 // Click Behaviors
 loginButtonEl.onclick = function () {
     init_login()
-    // window.location.href = "TicketList.html";
+    window.location.href = "TicketList.html";
 };
 
 function init_login() {
