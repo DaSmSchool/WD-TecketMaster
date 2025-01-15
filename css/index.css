@@ -13,6 +13,10 @@
     display: inline;
 }
 
+#login-btn:hover {
+    background-color: #ffffff;
+}
+
 #login-btn {
     text-decoration: underline;
     font-weight: 750;
