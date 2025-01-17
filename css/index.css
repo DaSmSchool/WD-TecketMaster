@@ -64,6 +64,7 @@ body {
 #create-account-btn:active {
     background-color: #0044ff;
     border: solid #0044ff thick;
+    border: solid #0044ff thick;
 }
 
 #create-account-btn {
@@ -127,8 +128,6 @@ body {
     border: solid black thick;
     width: 75%;
     height: 100%;
-    border-radius: 10px;
-    border-radius: 10px;
     overflow-y: scroll;
 }
 
@@ -137,6 +136,7 @@ body {
     margin: 10px;
     background-color: #0044ff;
     height: 80px;
+    border-radius: 5px;
 }
 
 .ticket-disp-container {
