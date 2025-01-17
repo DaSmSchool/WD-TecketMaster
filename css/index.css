@@ -1,8 +1,9 @@
 body {
-    width: 100%;
-    height: 100vh;
-    padding: 0;
+    width: 80vw;
+    height: 87.5%;
+    padding: 6.25%;
     margin: 0;
+    background-color: #444;
 }
 
 #title-contain {
@@ -14,17 +15,19 @@ body {
 }
 
 #page-contain {
-    width: 75%;
-    height: 75%;
+    text-align: center;
+    background-color: #AAA;
+    padding: 40px;
+
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    align-content: center;
-    justify-content: center;
+
     align-items: center;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 #username-guide-text, #password-guide-text {
@@ -107,9 +110,21 @@ body {
     overflow-y: scroll;
 }
 
-.ticket-display {
+.ticket-disp {
     width: 90%;
     margin: 10px;
     background-color: #0044ff;
     height: 80px;
+}
+
+.ticket-disp-container {
+    display: flex;
+}
+
+.ticket-disp-info {
+
+}
+
+.ticket-disp-btns {
+
 }
