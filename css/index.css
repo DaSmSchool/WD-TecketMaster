@@ -63,7 +63,7 @@ body {
 
 #create-account-btn:active {
     background-color: #0044ff;
-    border: solid #0044ff thick
+    border: solid #0044ff thick;
 }
 
 #create-account-btn {
@@ -84,6 +84,26 @@ body {
     margin: 50px;
     align-items: center;
     justify-items: center;
+}
+
+#create-ticket-section {
+    background-color: #2600ff9f;
+    border: solid grey 2px;
+}
+
+#create-ticket-btn {
+    font-weight: 500;
+    background-color: #00c3ff9f;
+}
+
+#create-ticket-btn:hover {
+    background-color: #00c3ffef;
+    font-weight: 550;
+    text-decoration: underline;
+}
+
+#create-ticket-btn:active {
+    background-color: #0097c5ef;
 }
 
 #view-ticket-section {
@@ -107,6 +127,7 @@ body {
     border: solid black thick;
     width: 75%;
     height: 100%;
+    border-radius: 10px;
     overflow-y: scroll;
 }
 
@@ -115,6 +136,7 @@ body {
     margin: 10px;
     background-color: #0044ff;
     height: 80px;
+<<<<<<< Updated upstream
 }
 
 .ticket-disp-container {
@@ -127,4 +149,7 @@ body {
 
 .ticket-disp-btns {
 
+=======
+    border-radius: 5px;
+>>>>>>> Stashed changes
 }
