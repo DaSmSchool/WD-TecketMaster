@@ -8,7 +8,7 @@ body {
 
 #title-contain {
     padding: 10px;
-    background-color: #00c3ff50;
+    background-color: #00c3ffc4;
     border: solid #2600ff9f thick;
     border-radius: 40px;
     margin: 30px;
@@ -93,13 +93,14 @@ body {
 }
 
 #create-ticket-btn {
+    font-size: larger;
     font-weight: 500;
     background-color: #00c3ff9f;
 }
 
 #create-ticket-btn:hover {
     background-color: #00c3ffef;
-    font-weight: 550;
+    font-weight: 535;
     text-decoration: underline;
 }
 
