@@ -30,7 +30,7 @@ body {
     border-radius: 20px;
 }
 
-#username-guide-text, #password-guide-text {
+#email-guide-text, #password-guide-text {
     display: inline;
 }
 

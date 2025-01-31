@@ -13,11 +13,29 @@
     </section>
     <section id="create-ticket-question-section">
         <div id="ticket-questions-list">
-            
+            <div class="create-ticket-question-container">
+                <p class="create-ticket-question-text">
+                    What kind of item needs to be serviced?
+                </p>
+                <input id="response-itemtype" class="create-ticket-question-input" type="text">
+            </div>
+            <div class="create-ticket-question-container">
+                <p class="create-ticket-question-text">
+                    What room is the item in?
+                </p>
+                <input id="response-room" class="create-ticket-question-input" type="text">
+            </div>
+            <div class="create-ticket-question-container">
+                <p class="create-ticket-question-text">
+                    Write a brief description the details of the issues that the item has.
+                </p>
+                <input id="response-description" class="create-ticket-question-input" type="text">
+            </div>
         </div>
+        <p id="error-feedback"></p>
         <button id="submit-ticket-btn">Submit Ticket</button>
     </section>
-    <script src="js/SubmitTicket.js"></script>
+    <script type="module" src="js/SubmitTicket.js"></script>
 </div>
 </body>
 </html>
