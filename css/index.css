@@ -140,26 +140,10 @@ body {
     border-radius: 5px;
 }
 
-.ticket-disp-container {
-    display: flex;
-}
-
-.ticket-disp-info {
-
-}
-
 .ticket-disp-btns {
     border-radius: 5px;
 }
 
 .ticket-disp-container {
     display: flex;
-}
-
-.ticket-disp-info {
-
-}
-
-.ticket-disp-btns {
-
 }
